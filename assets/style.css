@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Poppins:wght@700&family=Ubuntu:wght@700&display=swap');
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body {
+  background-color: #F7F8FD;
+  animation: fade-in 1s ease;
+}
+
+.logo {
+  position: absolute;
+  margin-left: 20vh;
+  margin-top: 2vh;
+  transform: translate(-15%, -15%);
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: translate(-15%, -15%) scale(1.1);
+}
+
+.cartoon {
+  position: absolute;
+  top: 55%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.3s ease;
+}
+
+.cartoon:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.line {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  width: 442px;
+  opacity: 0.1;
+  border: 1.4px solid #03045E;
+  transform: rotate(90deg);
+}
+
+.text {
+  position: absolute;
+  width: 583px;
+  height: 248px;
+  left: 209px;
+  top: 36%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 114.5%;
+  color: #03045E;
+}
+
+.transform {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  color: #2864FF;
+}
+
+.sub-text {
+  position: absolute;
+  width: 519px;
+  height: 64px;
+  left: 215px;
+  top: 633px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 150%;
+  color: #03045E;
+}
+
+nav ul {
+  float: right;
+  margin-right: 15vh;
+}
+
+nav li {
+  margin-right: 1.8vh;
+  margin-top: 2vh;
+  display: inline-block;
+  margin-left: 2vw;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+position: relative;
+  transition: transform 0.3s ease;
+}
+
+nav li::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #2864FF;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+nav li::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #2864FF;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+nav li:hover {
+  transform: translateY(1px);
+}
+
+nav li:hover::before {
+  transform: scaleX(1);
+}
+
+a {
+  color: #03045E;
+  text-decoration: none
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #03045E;
+  color: #fff;
+  text-align: left;
+  padding: 1px;
+  box-sizing: border-box;
+}
+
+.footer-text{
+  margin-left: 49%;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+}
+
