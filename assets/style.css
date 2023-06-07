@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Poppins:wght@700&family=Ubuntu:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Poppins:wght@500&family=Ubuntu:wght@500&display=swap%27');
 @keyframes fade-in {
   from {
     opacity: 0;
@@ -11,14 +11,13 @@
 }
 
 body {
-  background-color: #F7F8FD;
-  animation: fade-in 1s ease;
+  background: linear-gradient(180deg, rgba(40, 100, 255, 0.048) 0%, rgba(40, 100, 255, 0.048) 100%), #F7F8FD;  animation: fade-in 1s ease;
 }
 
 .logo {
   position: absolute;
-  margin-left: 20vh;
-  margin-top: 2vh;
+  margin-left: 21vh;
+  margin-top: 4vh;
   transform: translate(-15%, -15%);
   transition: transform 0.3s ease;
 }
@@ -27,34 +26,12 @@ body {
   transform: translate(-15%, -15%) scale(1.1);
 }
 
-.cartoon {
-  position: absolute;
-  top: 55%;
-  left: 80%;
-  transform: translate(-50%, -50%);
-  transition: transform 0.3s ease;
-}
-
-.cartoon:hover {
-  transform: translate(-50%, -50%) scale(1.1);
-}
-
-.line {
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  width: 442px;
-  opacity: 0.1;
-  border: 1.4px solid #03045E;
-  transform: rotate(90deg);
-}
-
 .text {
-  position: absolute;
+  position: fixed;
   width: 583px;
   height: 248px;
-  left: 209px;
-  top: 36%;
+  left: 11%;
+  top: 26%;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
@@ -71,11 +48,11 @@ body {
 }
 
 .sub-text {
-  position: absolute;
+  position: fixed;
   width: 519px;
-  height: 64px;
-  left: 215px;
-  top: 633px;
+  height: 11%;
+  left: 11%;
+  top: 55%;
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 700;
@@ -84,20 +61,59 @@ body {
   color: #03045E;
 }
 
+.cartoon {
+  position: absolute;
+  top: 52%;
+  left: 82%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.3s ease;
+}
+
+.cartoon:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.box {
+  position: fixed;
+  width: 293px;
+  height: 49px;
+  left: 10.9%;
+  top: 68.8%;
+  background: #2864FF;
+  box-shadow: 0px 4px 33px 6px rgba(40, 100, 255, 0.16);
+  border-radius: 14px;
+}
+
+.box-text {
+  position: fixed;
+  font-family: Poppins;
+  color: white;
+  margin-left: 2%;
+  margin-top: 0.6%;
+  font-size: large;
+}
+
+.arrow {
+  position: fixed;
+  margin-left: 12%;
+  margin-top: 0.8%;
+  width: 0.6%;
+}
+
 nav ul {
   float: right;
-  margin-right: 15vh;
+  margin-right: 17vh;
 }
 
 nav li {
-  margin-right: 1.8vh;
-  margin-top: 2vh;
+  margin-right: 2vh;
+  margin-top: 3vh;
   display: inline-block;
-  margin-left: 2vw;
+  margin-left: 1vw;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
-position: relative;
+  position: relative;
   transition: transform 0.3s ease;
 }
 
@@ -138,23 +154,3 @@ a {
   color: #03045E;
   text-decoration: none
 }
-
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #03045E;
-  color: #fff;
-  text-align: left;
-  padding: 1px;
-  box-sizing: border-box;
-}
-
-.footer-text{
-  margin-left: 49%;
-  font-family: 'Ubuntu';
-  font-style: normal;
-  font-weight: 700;
-}
-
