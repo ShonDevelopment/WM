@@ -19,8 +19,8 @@
     <link rel="shortcut icon" href="assets\logo.png" />
   </head>
   <body>
-    <img class="cartoon" src="assets\cartoon.png" />
     <section id="home">
+      <img class="cartoon" src="assets\cartoon.png" />
       <a href="#home">
         <img class="logo" src="assets\logo.png" alt="WM Websites Solutions" />
       </a>
@@ -40,13 +40,23 @@
           </div>
         </a>
       </div>
+      <nav>
+        <ul>
+          <li><a href="#contact">Contact Us</a></li>
+          <li class="dropdown">
+            <a href="#products">Products</a>
+            <ul class="dropdown-menu">
+              <li><a href="shop.html#basic">Basic</a></li>
+              <li><a href="shop.html#advanced">Advanced</a></li>
+              <li><a href="shop.html#profesional">Profesional</a></li>
+            </ul>
+          </li>
+          <li><a href="#home">Home</a></li>
+        </ul>
+      </nav>
     </section>
-    <nav>
-      <ul>
-        <li><a href="#contact">Contact Us</a></li>
-        <li><a href="#products">Products</a></li>
-        <li><a href="#home">Home</a></li>
-      </ul>
-    </nav>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
