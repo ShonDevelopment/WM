@@ -274,7 +274,7 @@ a {
 
 @media (max-width: 768px) {
   .text {
-    position: fixed;
+    position: absolute;
     width: 583px;
     height: 248px;
     left: 11%;
@@ -292,7 +292,7 @@ a {
   }
 
   .sub-text {
-    position: fixed;
+    position: absolute;
     width: 519px;
     height: 11%;
     left: 11%;
