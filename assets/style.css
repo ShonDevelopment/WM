@@ -260,7 +260,6 @@ a {
 }
 
 .section {
-  border-top: 1px solid #ddd;
   width: 80%;
   height: 80vh;
   transition: transform 1s, opacity 1s;
