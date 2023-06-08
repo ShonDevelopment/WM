@@ -285,9 +285,9 @@ a {
     font-size: 72px;
     line-height: 114.5%;
     color: #03045e;
-    width: 90%;
+    width: 80%;
     max-width: 583px;
-    left: 14%;
+    left: 56%;
     transform: translateX(-50%);
   }
 
@@ -303,9 +303,9 @@ a {
     font-size: 21px;
     line-height: 150%;
     color: #03045e;
-    width: 70%;
+    width: 80%;
     max-width: 519px;
-    left: 14%;
+    left: 56%;
     transform: translateX(-50%);
   }
 
