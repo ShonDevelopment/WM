@@ -43,7 +43,7 @@ header {
 }
 
 .text {
-  position: fixed;
+  position: absolute;
   width: 583px;
   height: 248px;
   left: 11%;
@@ -64,7 +64,7 @@ header {
 }
 
 .sub-text {
-  position: fixed;
+  position: absolute;
   width: 519px;
   height: 11%;
   left: 11%;
@@ -90,7 +90,7 @@ header {
 }
 
 .box-container {
-  position: fixed;
+  position: absolute;
   left: 10.9%;
   top: 68.8%;
   z-index: 9999;
