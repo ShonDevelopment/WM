@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- Discord Meta -->
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#ffffff" />
     <meta property="og:title" content="WM Web Solutions" />
     <meta
       property="og:description"
@@ -21,16 +20,15 @@
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
 
-    <!-- End Of Meta -->
     <link rel="stylesheet" href="/assets/style.css" />
     <title>WM Websites Solutions</title>
     <link rel="shortcut icon" href="assets\logo.png" />
   </head>
   <body>
-    <a href="#home">
+    <nav id="navbar">
+      <a href="#home">
       <img class="logo" src="assets\logo.png" alt="WM Websites Solutions" />
     </a>
-    <nav>
       <ul>
         <li><a href="#contact">Contact Us</a></li>
         <li class="dropdown">
@@ -65,7 +63,52 @@
     </section>
 
     <section id="products">
-      <div>test</div>
+      <div class="container">
+        <h2 class="section-title">Our Products</h2>
+        <div class="product-container">
+          <div class="product">
+            <h3 class="product-title">Basic Website</h3>
+            <p class="product-price">$30</p>
+            <p class="product-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <button
+              class="buy-button"
+              onclick="handlePayment('Basic Website', 30)"
+            >
+              Buy Now
+            </button>
+          </div>
+
+          <div class="product">
+            <h3 class="product-title">Advanced Website</h3>
+            <p class="product-price">$60</p>
+            <p class="product-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <button
+              class="buy-button"
+              onclick="handlePayment('Advanced Website', 60)"
+            >
+              Buy Now
+            </button>
+          </div>
+
+          <div class="product">
+            <h3 class="product-title">Professional Website</h3>
+            <p class="product-price">$90</p>
+            <p class="product-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <button
+              class="buy-button"
+              onclick="handlePayment('Professional Website', 90)"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
     </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
