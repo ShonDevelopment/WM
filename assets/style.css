@@ -436,7 +436,7 @@ a {
 
   .logo {
   position: absolute;
-  margin-left: 20vh;
+  margin-left: 22vh;
   margin-top: -7vh;
   transform: translate(-15%, -15%);
   transition: transform 0.3s ease;
